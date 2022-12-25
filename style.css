@@ -1,0 +1,47 @@
+.normal {
+    margin-bottom: 0;
+}
+.one {
+    margin: 5px;
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+@media only screen and (max-width: 750px){
+    .btn-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+.bw {
+    background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    margin: 0px;
+}
+.wb {
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%);
+    margin: 0px;
+}
+.red {
+    color: magenta;
+}
+.b {
+    background-color: black;
+}
+.w {
+    background-color: #fff;
+}
+.big {
+    font-size: 10cm;
+    text-align: center;
+    color: magenta;
+    text-shadow: #fff;
+}
+@media only screen and (max-width: 950px) {
+    .big {
+        font-size: 5cm;
+    }
+}
+.two {
+    font-size: 25px;
+}
